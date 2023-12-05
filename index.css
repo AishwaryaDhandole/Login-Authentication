@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+}
+.RegistrationForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  margin:auto;
+  border: 1px solid rgb(14, 15, 16);
+}
+.userName>.MuiTextField-root,
+.password>.MuiTextField-root,
+.cityNVillage>.MuiTextField-root,
+.distNState>.MuiTextField-root{
+  width: 350px;
+  margin: 10px;
+}
+.MuiButton-root{
+  width: 200px;
+  margin: 50px;
+}
+.courses{
+  display: flex;
+  flex-direction: row;
+}
+.courses>.MuiFormGroup-root{
+  width: 470px;
+  margin-left: 50px;
+}
+.oneGroup>.MuiFormControlLabel-root{
+  width: 150px;
+}
+.courses>h2{
+  margin-top: 47px;
+  font-weight: 550;
+}
+.RegistrationForm>h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 750;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(75, 65, 65);
+  background: linear-gradient(79deg, #292629, #979095 48%, #342d2d);
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+@media screen and (min-width:600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+.LoginForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  padding: 12px;
+  border-radius: 10px;
+  margin:auto;
+  border: 1px solid rgb(14, 15, 16);
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #100f12;
+}
+
+.link-btn {
+  background: none;
+  color: rgb(8, 8, 8);
+  text-decoration: underline;
+  cursor: pointer;
+}
